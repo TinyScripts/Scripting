@@ -12,13 +12,13 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
-        print('Здоровье игрока:' + health);
+        print("Здоровье игрока:" + health);
     }
 
     public void CollectCoins()
     {
         coins++;
-        print('Собранные монетки:' + coins);
+        print("Собранные монетки:" + coins);
     }
 
     void Update()
