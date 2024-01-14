@@ -6,7 +6,7 @@ public class Teleport : MonoBehaviour
 {
     public Transform teleportPoint;
 
-    void OnTriggerEnter(ColliderOther)
+    void OnTriggerEnter(Collider other)
     {
         other.transform.position = teleportPoint.position;
     }
